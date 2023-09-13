@@ -3,6 +3,7 @@
 #google_analytics: UA-NNNNNNNN-N
 
 header_pages:
+  - list.md
   - tags.md
 
 # footer: '<a href="https://github.com/ac-saro">github</a>'
