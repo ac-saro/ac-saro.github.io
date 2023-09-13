@@ -1,6 +1,6 @@
 ---
 title: 분류
-layout: home
+layout: page
 permalink: /categories
 ---
 

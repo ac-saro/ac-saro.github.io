@@ -1,6 +1,6 @@
 ---
 title: 소개
-layout: home
+layout: page
 permalink: /introduce
 ---
 
