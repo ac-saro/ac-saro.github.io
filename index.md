@@ -4,11 +4,11 @@ layout: home
 permalink: /
 ---
 
-# 주요 공개 그룹
+### 주요 공개 그룹
 - [사로 연구소](https://github.com/saro-lab)
 - [애니시아 프로젝트](https://github.com/anissia-net)
 
-# 주요 공개 프로젝트
+### 주요 공개 프로젝트
 |구분|이름|설명|
 |---|---|---|
 |maven|[jwt](https://github.com/saro-lab/jwt)|JWT 라이브러리 (암/복호화, 동적키)|
@@ -20,5 +20,5 @@ permalink: /
 |server|[anissia-core](https://github.com/anissia-net/anissia-core)|애니시아 BE 코어|
 |web|[anissia-web](https://github.com/anissia-net/anissia-web)|애니시아 FE|
 
-# 기타
+### 기타
 - [blog](https://github.com/ac-saro/ac-saro.github.io/tree/publish)
