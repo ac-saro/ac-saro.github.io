@@ -48,7 +48,7 @@ header p { text-align: left;  margin: 0; }
  * Tables
  */
 table { border-collapse: collapse; }
-table tr, table td { border: var(--border); padding:6px 8px; }
+table th, table td { border: var(--border); padding:6px 8px; }
 
 /**
  * Header/Navigation
