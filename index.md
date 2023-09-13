@@ -1,5 +1,5 @@
 ---
-title: home
+title: 가리사니의 조각들...
 layout: home
 permalink: /
 ---
