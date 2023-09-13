@@ -2,14 +2,17 @@
 
 #google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
-#  - index.md
-#  - about.md
+header_pages:
+  - index.md
+  - about.md
+  - categories.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 #style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
+
+remote_theme: b2a3e8/jekyll-theme-console
 
 plugins:
   - jekyll-seo-tag
