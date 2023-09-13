@@ -45,6 +45,11 @@ header p { text-align: left;  margin: 0; }
 :not(.menu) > ul > li:before { content: "◼";  margin-right: 9px; }
 
 /**
+ * Tables
+ */
+table tr, table td { border-top: var(--border); padding:6px 8px; }
+
+/**
  * Header/Navigation
  */
 .menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; overflow: auto }
