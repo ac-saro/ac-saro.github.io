@@ -1,5 +1,5 @@
 ---
-title: 첫화면
+title: home
 layout: home
 permalink: /
 ---
