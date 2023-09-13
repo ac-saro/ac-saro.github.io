@@ -1,7 +1,7 @@
 ---
-title: Categories
+title: tags
 layout: page
-permalink: /categories/
+permalink: /tags
 ---
 
 
