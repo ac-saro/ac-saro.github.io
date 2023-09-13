@@ -4,10 +4,6 @@ layout: home
 permalink: /
 ---
 
-# 제목
-
-첫화면
-
 # 주요 공개 그룹
 - [사로 연구소](https://github.com/saro-lab)
 - [애니시아 프로젝트](https://github.com/anissia-net)
