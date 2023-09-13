@@ -5,10 +5,10 @@ permalink: /tags
 ---
 
 
-
-<ul>
-{% for post in page.posts %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li>
-{% endfor %}
-</ul>
-
+{% if page.tags %}
+    {% for tag in page.tags %}
+        {% if site.data.tags contains tag %}
+            <span class="tag">{{ tag }}</span>
+        {% endif %}
+    {% endfor %}
+{% endif %}
