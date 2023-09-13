@@ -1,8 +1,9 @@
 ---
-title: 카테고리
+title: 분류
 layout: home
 permalink: /categories
 ---
 
-as asdf
-dfasdf
+# 카테고리
+
+카테고리

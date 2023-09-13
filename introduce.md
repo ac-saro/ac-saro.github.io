@@ -1,7 +1,7 @@
 ---
-title: about
+title: 소개
 layout: home
-permalink: /about
+permalink: /introduce
 ---
 
 # 테스트
