@@ -6,11 +6,14 @@ layout: default
 
 <div class="post ctrl">
     <div class="fl-left">
-        {% if page.tags.size > 0 %}
-        태그: {{ page.tags | sort | join: ", " }}
-        {% endif %}
+
     </div>
     <div class="fl-right">
+        <span>
+            {% if page.tags.size > 0 %}
+            #{{ page.tags | sort | join: ", #" }}
+            {% endif %}
+        </span> /
         <a href="https://github.com/ac-saro">박용서</a> /
         <span>{{ page.date | date: "%Y-%m-%d" }}</span> /
         <a href="https://github.com/ac-saro/ac-saro.github.io/edit/publish/{{ page.path }}">편집</a>
