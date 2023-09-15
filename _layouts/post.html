@@ -2,38 +2,26 @@
 layout: default
 ---
 
-{{ content }}
+<div style="text-align: center; font-size: 18px; margin: 20px 0;">▒ {{ page.title }} ▒</div>
 
+<div style="text-align: right">
+    <a href="https://github.com/ac-saro">박용서</a> /
+    <span>{{ page.date | date: "%Y-%m-%d" }}</span> /
+    <a href="https://github.com/ac-saro/ac-saro.github.io/tree/publish/{{ page.path }}">편집</a>
+</div>
 
 <div>
-1
-    <div>1</div>
-<div>{{ page.content }}</div>
-    <div>2</div>
-<div>{{ page.title }}</div>
-    <div>3</div>
-<div>{{ page.excerpt }}</div>
-4
-<div>{{ page.url }}</div>
-5
-<div>{{ page.date }}</div>
-6
-<div>{{ page.id }}</div>
-7
-<div>{{ page.categories }}</div>
-8
-<div>{{ page.collection }}</div>
-9
-<div>{{ page.tags }}</div>
-10
-<div>{{ page.dir }}</div>
-11
-<div>{{ page.name }}</div>
-12
-<div>{{ page.path }}</div>
-13
-<div>{{ page.next }}</div>
-14
-<div>{{ page.previous }}</div>
-15
+    {{ content }}
 </div>
+
+<div>
+    {% if post.tags.size > 0 %}
+    Tag{% if post.tags.size > 1 %}s{% endif %}:
+    {{ post.tags | sort | join: ", " }}
+    {% endif %}
+</div>
+
+
+<!--<div>{{ page.next }}</div>-->
+<!--<div>{{ page.previous }}</div>-->
+
