@@ -32,6 +32,12 @@ header p { text-align: left;  margin: 0; }
 .hr-line { margin-bottom: 20px; }
 
 /**
+ * post
+ */
+.post.title { text-align: center; font-size: 18px; margin: 20px 0; }
+.post.ctrl { text-align: right }
+
+/**
  * Highlight/Markup
  */
 ::selection { background: var(--selection-background);  color: var(--selection-text); }
