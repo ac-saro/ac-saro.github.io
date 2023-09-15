@@ -36,10 +36,11 @@ header p { text-align: left;  margin: 0; }
  */
 .post.title { text-align: center; font-size: 18px; margin: 20px 0; }
 .post.ctrl .fl-left { float: left }
+.post.ctrl .fl-right { text-align: right }
 
-/**
- * Highlight/Markup
- */
+  /**
+   * Highlight/Markup
+   */
 ::selection { background: var(--selection-background);  color: var(--selection-text); }
 ::-moz-selection { background: var(--selection-background);  color: var(--selection-text); }
 

@@ -10,20 +10,17 @@ layout: default
         태그: {{ page.tags | sort | join: ", " }}
         {% endif %}
     </div>
-    <div>
+    <div class="fl-right">
         <a href="https://github.com/ac-saro">박용서</a> /
         <span>{{ page.date | date: "%Y-%m-%d" }}</span> /
         <a href="https://github.com/ac-saro/ac-saro.github.io/edit/publish/{{ page.path }}">편집</a>
     </div>
 </div>
 
-<div>
+<div class="hr-line">
     {{ content }}
 </div>
 
-<div>
-
-</div>
 
 
 <!--<div>{{ page.next }}</div>-->
