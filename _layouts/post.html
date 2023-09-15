@@ -7,11 +7,11 @@ layout: default
 <div>
     <span>
         {% if page.tags.size > 0 %}
-        #{{ page.tags | sort | join: ", #" }}
+        태그: {{ page.tags | sort | join: ", " }}
         {% endif %}
-    </span> /
-    <a href="https://github.com/ac-saro">박용서</a> /
-    <span>{{ page.date | date: "%Y-%m-%d" }}</span> /
+    </span> •
+    작성자: <a href="https://github.com/ac-saro">박용서</a> •
+    <span>작성일: {{ page.date | date: "%Y-%m-%d" }}</span> •
     <a href="https://github.com/ac-saro/ac-saro.github.io/edit/publish/{{ page.path }}">편집</a>
 </div>
 
