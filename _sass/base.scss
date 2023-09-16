@@ -36,7 +36,9 @@ header p { text-align: left;  margin: 0; }
  * post
  */
 .post.title { text-align: center; font-size: 18px; margin: 48px 0 32px; }
-
+.post.ctrl { overflow: auto }
+.post.ctrl .fl-left { float: left; }
+.post.ctrl .fl-right { text-align: right; }
 
   /**
    * Highlight/Markup

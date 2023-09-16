@@ -4,15 +4,16 @@ layout: default
 
 <div class="post title">{{ page.title }}</div>
 
-<div>
-    <span>
+<div class="post ctrl">
+    <div class="fl-left">
         {% if page.tags.size > 0 %}
-        태그: {{ page.tags | sort | join: ", " }}
+            {{ page.tags | sort | join: ", " }}
         {% endif %}
-    </span> •
-    작성자: <a href="https://github.com/ac-saro">박용서</a> •
-    <span>작성일: {{ page.date | date: "%Y-%m-%d" }}</span> •
-    <a href="https://github.com/ac-saro/ac-saro.github.io/edit/publish/{{ page.path }}">편집</a>
+    </div>
+    <div class="fl-right">
+        <a href="https://github.com/ac-saro">박용서</a> •
+        <a href="https://github.com/ac-saro/ac-saro.github.io/edit/publish/{{ page.path }}">{{ page.date | date: "%Y-%m-%d" }}</a>
+    </div>
 </div>
 
 <div class="hr-line">
