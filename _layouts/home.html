@@ -2,11 +2,13 @@
 layout: default
 ---
 
-{{ content }}
-{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+<div class="pad-x-4">
+  {{ content }}
+  {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
+</div>
 
 {%- if site.posts.size > 0 -%}
-  <ul class="hr-line pad-t-10">
+  <ul class="hr-line pad-t-10 pad-x-4">
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
