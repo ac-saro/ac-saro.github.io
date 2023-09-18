@@ -25,7 +25,9 @@ layout: default
     다음글: <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
 </div>
 {%- endif -%}
-
-
-<!--<div>{{ page.previous }}</div>-->
+{%- if page.previous -%}
+<div>
+    이전글: <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+</div>
+{%- endif -%}
 
