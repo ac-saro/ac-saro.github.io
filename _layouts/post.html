@@ -20,8 +20,12 @@ layout: default
     {{ content }}
 </div>
 
+{%- if page.next -%}
+<div>
+    다음글: <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+</div>
+{%- endif -%}
 
 
-<!--<div>{{ page.next }}</div>-->
 <!--<div>{{ page.previous }}</div>-->
 
