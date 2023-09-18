@@ -4,7 +4,7 @@ layout: default
 
 <div class="post title">{{ page.title }}</div>
 
-<div class="post ctrl">
+<div class="post ctrl pad-x-4">
     <div class="fl-left">
         {% if page.tags.size > 0 %}
             {{ page.tags | sort | join: ", " }}
@@ -16,10 +16,11 @@ layout: default
     </div>
 </div>
 
-<div class="hr-line">
+<div class="hr-line pad-x-4">
     {{ content }}
 </div>
 
+<div class="hr-line pad-t-10 pad-x-4">
 {%- if page.next -%}
 <div>
     다음글: <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
@@ -30,4 +31,4 @@ layout: default
     이전글: <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
 </div>
 {%- endif -%}
-
+</div>
