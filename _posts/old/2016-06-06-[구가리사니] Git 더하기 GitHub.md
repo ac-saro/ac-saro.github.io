@@ -1,0 +1,15 @@
+---
+layout: post
+tags: [가리사니, 기타]
+---
+
+> 이 문서는 예전 가리사니 사이트에서 작성된 문서 입니다.
+현재 상황과 맞지 않을 수 있습니다.
+
+
+
+> 이글의 출처는 다음과 같습니다.
+>
+http://www.slideshare.net/ssusercef361/git-github-62006866
+
+SlideShare 62006866 gettingstartedwithgitgithub-160514055639
