@@ -20,5 +20,3 @@ permalink: /
 |server|[anissia-core](https://github.com/anissia-net/anissia-core)|애니시아 BE 코어|
 |web|[anissia-web](https://github.com/anissia-net/anissia-web)|애니시아 FE|
 
-### 기타
-- [blog](https://github.com/ac-saro/ac-saro.github.io/tree/publish)
