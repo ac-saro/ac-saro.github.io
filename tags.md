@@ -21,12 +21,14 @@ permalink: /tags
 {% endunless %}
 {% endif %}
 {% endfor %}
-<div>
-{% for tag in tags %}<a href="#{{ tag | slugify }}" >{{ tag }}</a> {% endfor %}
+<div style="font-weight: bold;font-size:20px;">
+    {% for tag in tags %}
+        <a href="#{{ tag | slugify }}" style="display: inline-block; margin: 2px 6px">{{ tag }}</a> 
+    {% endfor %}
 </div>
 <div class="hr-line">
 {% for tag in tags %}
-<h4 id="{{ tag | slugify }}">{{ tag }}</h4>
+<div id="{{ tag | slugify }}" style="font-weight: bold;font-size:20px;">{{ tag }}</div>
 <ul>
   {% for post in site.posts %}
   {% if post.tags contains tag %}
