@@ -26,8 +26,8 @@ permalink: /tags
 </div>
 <div class="hr-line">
 {% for tag in tags %}
-<div id="{{ tag | slugify }}" style="font-weight: bold;font-size:20px;">{{ tag | capitalize }}</div>
-<ul>
+<div id="{{ tag | slugify }}" class="tag-title">{{ tag | capitalize }}</div>
+<ul class="li-4">
   {% for post in site.posts %}
   {% if post.tags contains tag %}
   <li>

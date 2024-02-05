@@ -35,6 +35,7 @@ main { word-break: break-all; }
 .pad-x-4 { padding-left: 4px; padding-right: 4px; }
 .content-layout img { max-width: 80%; opacity: .8 }
 .content-layout img:hover { opacity: 1 }
+.li-4 li { margin: 4px 0; }
 
 /**
  * post
@@ -44,9 +45,9 @@ main { word-break: break-all; }
 .post.ctrl .fl-left { float: left; }
 .post.ctrl .fl-right { text-align: right; }
 
-  /**
-   * Highlight/Markup
-   */
+/**
+ * Highlight/Markup
+ */
 ::selection { background: var(--selection-background);  color: var(--selection-text); }
 ::-moz-selection { background: var(--selection-background);  color: var(--selection-text); }
 
@@ -60,7 +61,7 @@ main { word-break: break-all; }
 /**
  * Tables
  */
-table { border-collapse: collapse; }
+table { border-collapse: collapse; margin: 4px 0; }
 table th, table td { border: var(--border); padding:6px 8px; }
 
 /**
@@ -68,6 +69,7 @@ table th, table td { border: var(--border); padding:6px 8px; }
  */
 .tags-page-layout .tags-header { font-weight: bold; font-size:20px; }
 .tags-page-layout .tags-header a { display: inline-block; margin: 2px 6px }
+.tags-page-layout .tag-title { font-weight: bold;font-size:20px; margin-top:12px; }
 
 /**
  * Header/Navigation
