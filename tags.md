@@ -38,5 +38,5 @@ permalink: /tags
   {% endif %}
   {% endfor %}
 </ul>
-</div>
 {% endfor %}
+</div>
