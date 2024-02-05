@@ -4,7 +4,7 @@ layout: page
 permalink: /list
 ---
 
-<ul>
+<ul class="li-4">
 {%- for post in site.posts -%}
 <li>
   {%- assign date_format = "%Y-%m-%d" -%}
