@@ -23,7 +23,7 @@ permalink: /tags
 {% endfor %}
 <div style="font-weight: bold;font-size:20px;">
     {% for tag in tags %}
-        <a href="#{{ tag | slugify }}" style="display: inline-block; margin: 2px 6px">{{ tag | capitalize }}</a> 
+        <a href="#{{ tag | slugify }}">{{ tag | capitalize }}</a> 
     {% endfor %}
 </div>
 <div class="hr-line">
