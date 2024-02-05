@@ -22,7 +22,7 @@ permalink: /tags
 {% endif %}
 {% endfor %}
 <div>
-{% for tag in tags %}<a href="#{{ tag | slugify }}" >#{{ tag }}</a>&nbsp;{% endfor %}
+{% for tag in tags %}<a href="#{{ tag | slugify }}" >{{ tag }}</a> {% endfor %}
 </div>
 <div class="hr-line">
 {% for tag in tags %}
