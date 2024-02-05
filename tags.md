@@ -41,7 +41,3 @@ permalink: /tags
 {% endfor %}
 </div>
 </div>
-<style>
-.tags-page-layout .tags-header { font-weight: bold; font-size:20px; }
-.tags-page-layout .tags-header a { display: inline-block; margin: 2px 6px }
-</style>
