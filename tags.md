@@ -3,7 +3,7 @@ title: 태그
 layout: page
 permalink: /tags
 ---
-
+<div class="tags-page-layout">
 {% assign rawtags = "" %}
 {% for post in site.posts %}
 {% assign ttags = post.tags | join:'|' | append:'|' %}
@@ -21,8 +21,8 @@ permalink: /tags
 {% endunless %}
 {% endif %}
 {% endfor %}
-<div style="font-weight: bold !important;font-size:20px !important;">
-{% for tag in tags %}<a href="#{{ tag | slugify }}" style="display: inline-block; margin: 2px 6px">{{ tag | capitalize }}</a> {% endfor %}
+<div class="tags-header">
+{% for tag in tags %}<a href="#{{ tag | slugify }}">{{ tag | capitalize }}</a> {% endfor %}
 </div>
 <div class="hr-line">
 {% for tag in tags %}
@@ -40,3 +40,8 @@ permalink: /tags
 </ul>
 {% endfor %}
 </div>
+</div>
+<style>
+.tags-page-layout .tags-header { font-weight: bold; font-size:20px; }
+.tags-page-layout .tags-header a { display: inline-block; margin: 2px 6px }
+</style>
