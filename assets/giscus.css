@@ -101,6 +101,13 @@ main .gsc-loading-image {
 .gsc-tl-line {
   background: #222 !important;
 }
-.gsc-timeline, .gsc-comment-box, .gsc-comment-box-main {
+.gsc-timeline, .gsc-comment-box {
+  border-top: 1px dashed #555 !important;
+  border-bottom: 1px dashed #555 !important;
+}
+.gsc-comment-box-main {
   border: 1px dashed #555 !important;
+}
+.gsc-timeline {
+  padding-top: 6px;
 }
