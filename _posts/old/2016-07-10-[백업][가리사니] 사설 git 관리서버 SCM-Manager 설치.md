@@ -9,11 +9,11 @@ tags: [servlet, java, version-control]
 
 # 강의를 파트별로 분리하였습니다.
 자바기반 GIT 관리 서버
-- [/lab?topicId=233](/lab?topicId=233)
+- [/2016/05/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-%EA%B8%B0%EB%B0%98%EC%9D%98-GIT-%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B2%84-(-Windows-GIT-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95-).html](/2016/05/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-%EA%B8%B0%EB%B0%98%EC%9D%98-GIT-%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B2%84-(-Windows-GIT-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95-).html)
 사설 git 관리서버 SCM-Manager 설치
-- [/lab?topicId=266](/lab?topicId=266)
+- [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-SCM-Manager-%EC%84%A4%EC%B9%98.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-SCM-Manager-%EC%84%A4%EC%B9%98.html)
 사설 git 관리서버 GitBucket 설치
-- [/lab?topicId=267](/lab?topicId=267)
+- [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html)
 먼저 필요한 git / java 설치는 자바기반 GIT 관리 서버를 참고해주세요.
 
 
@@ -25,7 +25,7 @@ SCM-Server : 스탠드얼론(독립서버)
 SCM-WebApp : war
 방법 1 : 서블릿 (war) 설치 (톰켓기준)
 - 위 사이트에서 SCM-WebApp 를 다운받습니다.
-- 톰켓 war 디플로이 참고 : [/lab?topicId=217](/lab?topicId=217)
+- 톰켓 war 디플로이 참고 : [/2016/04/22/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-4-%EC%9E%85%EB%AC%B8%EA%B0%95%EC%9D%98-6.-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%84%9C%EB%B2%84%EC%97%90-%EB%B0%B0%ED%8F%AC.html](/2016/04/22/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-4-%EC%9E%85%EB%AC%B8%EA%B0%95%EC%9D%98-6.-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%84%9C%EB%B2%84%EC%97%90-%EB%B0%B0%ED%8F%AC.html)
 - 서블릿 서버를 운영중인 사람에겐 이방법이 더 편합니다. (필자도 이방법을 사용함)
 방법 2 : 독립서버 설치
 - 위 사이트에서 SCM-Server 를 다운받습니다.

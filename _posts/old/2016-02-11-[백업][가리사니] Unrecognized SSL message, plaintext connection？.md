@@ -31,7 +31,7 @@ channel.write(encryptBuffer, ......
 ```
 
 어이없을 정도로 단순하지만 javax.net.ssl.SSLEngine.wrap 이 flip까지 해주는 것은 아니기 때문에 encryptBuffer 에 flip 과정이 필요합니다.
-보다 자세한 이유는 바이트 버퍼 [/lab?topicId=176](/lab?topicId=176) 를 참조하세요.
+보다 자세한 이유는 바이트 버퍼 [/2016/02/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-ByteBuffer-%EB%9E%80.html](/2016/02/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-ByteBuffer-%EB%9E%80.html) 를 참조하세요.
 ``` java
 case NEED_WRAP :
 ...

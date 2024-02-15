@@ -135,7 +135,7 @@ if (req.isSecure())
 https://www.ssllabs.com/ssltest/analyze.html?d=saro.me
 https://www.ssllabs.com/ssltest/analyze.html?d=gs.saro.me
 물론 A+ 을 받고싶다면 아래문서도 참고해주세요 (사이퍼 설정)
-[/lab?topicId=198](/lab?topicId=198)
+[/2016/03/07/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Tomcat-%EC%97%90%EC%84%9C-%EC%95%88%EC%A0%84%ED%95%9C-SSL-TSL-Protocol-ciphers-%EC%9D%84-%EC%84%A4%EC%A0%95%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/html](/2016/03/07/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Tomcat-%EC%97%90%EC%84%9C-%EC%95%88%EC%A0%84%ED%95%9C-SSL-TSL-Protocol-ciphers-%EC%9D%84-%EC%84%A4%EC%A0%95%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95/html)
 - 참고 위 사이퍼 설정은 필자가 글쓴날인 2016-05-18일 올라온 톰켓 8.0.35 부터 전체가 적용됩니다.
 - 그 이하 버전에서는 일부 설정을 무시합니다.
 

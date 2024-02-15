@@ -24,4 +24,4 @@ dataimport 예제입니다.
 ```
 
 참고문서 db-data-config
-[/lab?topicId=36](/lab?topicId=36)
+[/2015/05/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%86%94%EB%9D%BC%EC%97%90%EC%84%9C-db-data-config.xml-%EC%84%A4%EC%A0%95%EB%B2%95.html](/2015/05/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%86%94%EB%9D%BC%EC%97%90%EC%84%9C-db-data-config.xml-%EC%84%A4%EC%A0%95%EB%B2%95.html)

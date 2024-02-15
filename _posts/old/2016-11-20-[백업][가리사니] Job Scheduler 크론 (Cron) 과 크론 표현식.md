@@ -8,8 +8,8 @@ tags: [spring, cron]
 
 
 # 크론 / 스케줄러 (배치) 시리즈
-- [Job Scheduler 크론 (Cron) 과 크론 표현식](/lab?topicId=339)
-- [Spring Job Scheduler](/lab?topicId=340)
+- [Job Scheduler 크론 (Cron) 과 크론 표현식](/2016/11/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Job-Scheduler-%ED%81%AC%EB%A1%A0-(Cron)-%EA%B3%BC-%ED%81%AC%EB%A1%A0-%ED%91%9C%ED%98%84%EC%8B%9D.html)
+- [Spring Job Scheduler](/2016/11/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-Job-Scheduler.html)
 
 # 잡 스케줄러? 크론 표현식?
 실무에서는 배치, 크론, 스케줄러, 예약작업, 잡 등으로 부르는데 일단 정리를 하고 넘어가보겠습니다.

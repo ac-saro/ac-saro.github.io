@@ -25,7 +25,7 @@ HTTP 요청과 생명주기를 함께합니다.
 
 session : 세션 - ApplicationContext 범위 내에서만 유효
 session과 생명주기를 함께합니다.
-- 참고 : [/lab?topicId=278](/lab?topicId=278)
+- 참고 : [/2016/07/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-%EC%84%B8%EC%85%98-%EC%8A%A4%EC%BD%94%ED%94%84%EB%B9%88.html](/2016/07/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-%EC%84%B8%EC%85%98-%EC%8A%A4%EC%BD%94%ED%94%84%EB%B9%88.html)
 
 globalSession : 전역세션 - ApplicationContext 범위 내에서만 유효 / 일반적으로 Portlet(포틀릿:Web-Portlet) 문맥에서 유효
 global HTTP Session과 생명주기를 함께합니다.

@@ -8,8 +8,8 @@ tags: [java]
 
 
 # 자바 Collection 시리즈
-- [1. List](/lab?topicId=294)
-- [2. Set, Map](/lab?topicId=295)
+- [1. List](/2016/08/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-Collection-1.-List.html)
+- [2. Set, Map](/2016/08/03/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-Collection-2.-Set,-Map.html)
 
 # 서론
 머리 속으로 알고있는 것 보다 문서를 작성해보는 것이 어떨까 생각하여 강의를 작성해 보았습니다.

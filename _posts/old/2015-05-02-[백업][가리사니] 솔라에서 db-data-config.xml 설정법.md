@@ -27,4 +27,4 @@ tags: [lucene, solr]
 ```
 
 참고문서
-[/lab?topicId=37](/lab?topicId=37)
+[/2015/05/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%86%94%EB%9D%BC-dataimport-%EC%98%88%EC%A0%9C.html](/2015/05/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%86%94%EB%9D%BC-dataimport-%EC%98%88%EC%A0%9C.html)

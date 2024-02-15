@@ -9,7 +9,7 @@ tags: [spring, java]
 
 # 서론
 최근에 서버와 클라이언트 양쪽에 템플릿 엔진이 있는 것들을 찾아보다가 스프링 부트에 기본적으로 있는 mustache 가 있다는 것을 알았습니다.
-- [mustache 문법 + 스프링 연동](/lab?topicId=288)
+- [mustache 문법 + 스프링 연동](/2016/07/27/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-mustache-%EB%AC%B8%EB%B2%95-+-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%97%B0%EB%8F%99.html)
 문제는 i18n이나 시큐리티, session 같은 경우 타임리프나 JSTL 처럼 사용할만한 방법이 없어 찾아보던 중 HandlerInterceptorAdapter를 사용해 보았습니다.
 - 물론 모델이 매번 넣어주는 방법도 있겠지만 유지보수도 안좋고 자원도 심하게 망가짐으로...
 
@@ -70,7 +70,7 @@ public class MessageInterceptor extends HandlerInterceptorAdapter
 ```
 위 예제는 뷰안에 위치한 "message" 하위의 모든 attr을 찾아 frag.execute() 를 통해 attr의 이름을 확인 하고 out.write 를 통해 값을 써주게 됩니다.
 i18n / messageSource / localeResolver 는 아래 문서를 참고해주세요.
-- [스프링 i18n (다국어) : 2. Locale Resolver](/lab?topicId=290)
+- [스프링 i18n (다국어) : 2. Locale Resolver](/2016/07/29/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-i18n-(%EB%8B%A4%EA%B5%AD%EC%96%B4)-2.-Locale-Resolver.html)
 
 
 # 예제 : WebMvcConfigurerAdapter

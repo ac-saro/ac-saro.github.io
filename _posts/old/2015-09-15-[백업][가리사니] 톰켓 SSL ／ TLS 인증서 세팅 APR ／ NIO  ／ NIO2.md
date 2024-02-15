@@ -56,4 +56,4 @@ APR과 NIO의 인증서 세팅부분이 다른건 APR은 OpenSSL NIO는 Java SSL
 
 NIO방식으로 쓰려면 일반 인증서들을 키스토어 형태로 바꾸셔야합니다.
 아래 링크로 가시면 OPENSSL을 통한 예제가 있습니다.
-[/lab?topicId=122](/lab?topicId=122)
+[/2015/09/15/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-openssl-%EC%9D%84%ED%86%B5%ED%95%B4-crt-cer-key-%ED%8C%8C%EC%9D%BC%EC%9D%84-p12-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0/html](/2015/09/15/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-openssl-%EC%9D%84%ED%86%B5%ED%95%B4-crt-cer-key-%ED%8C%8C%EC%9D%BC%EC%9D%84-p12-%ED%8C%8C%EC%9D%BC%EB%A1%9C-%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0/html)

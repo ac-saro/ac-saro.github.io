@@ -49,7 +49,7 @@ cls
 :: JAVA JDK 에 신뢰할 수 있는 CA(인증기관) 추가
 :: Add trust certificate CA in JAVA JDK
 :: 2016-07-11 전명 박용서 : create
-:: link : [/lab?topicId=269](/lab?topicId=269)
+:: link : [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-https-maven-deploy%EC%8B%9C-ValidatorException-%EC%9E%90%EB%B0%94%EC%97%90-%EC%8B%A0%EB%A2%B0%ED%95%A0%EC%88%98%EC%9E%88%EB%8A%94-CA-%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80-%EC%B6%94%EA%B0%80.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-https-maven-deploy%EC%8B%9C-ValidatorException-%EC%9E%90%EB%B0%94%EC%97%90-%EC%8B%A0%EB%A2%B0%ED%95%A0%EC%88%98%EC%9E%88%EB%8A%94-CA-%EC%9D%B8%EC%A6%9D%EA%B8%B0%EA%B4%80-%EC%B6%94%EA%B0%80.html)
 :: +++++++++++++++++++++++++++++++++++++++
 :: ##### 사용자 설정 #####
 :: ##### Configuration this block #####

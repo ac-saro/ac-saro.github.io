@@ -8,13 +8,13 @@ tags: [spring, java, cron]
 
 
 # 크론 / 스케줄러 (배치) 시리즈
-- [Job Scheduler 크론 (Cron) 과 크론 표현식](/lab?topicId=339)
-- [Spring Job Scheduler](/lab?topicId=340)
+- [Job Scheduler 크론 (Cron) 과 크론 표현식](/2016/11/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Job-Scheduler-%ED%81%AC%EB%A1%A0-(Cron)-%EA%B3%BC-%ED%81%AC%EB%A1%A0-%ED%91%9C%ED%98%84%EC%8B%9D.html)
+- [Spring Job Scheduler](/2016/11/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-Job-Scheduler.html)
 
 # 서론
 스프링에 잡 스케줄링을 하는 방법에 대해서 설명해보겠습니다.
 우선 용어정리와 크론 표현식에 대해서 알아보고 싶다면 아래 링크를 참고해주세요.
-- [Job Scheduler 크론 (Cron) 과 크론 표현식](/lab?topicId=339)
+- [Job Scheduler 크론 (Cron) 과 크론 표현식](/2016/11/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Job-Scheduler-%ED%81%AC%EB%A1%A0-(Cron)-%EA%B3%BC-%ED%81%AC%EB%A1%A0-%ED%91%9C%ED%98%84%EC%8B%9D.html)
 
 
 # 스프링에서 잡 스케줄러 종류

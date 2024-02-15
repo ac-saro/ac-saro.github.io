@@ -15,8 +15,8 @@ tags: [javascript]
 - 모질라 문서 : https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/class
 
 참고사항
-- ES 6 추가기능 : [/lab?topicId=240](/lab?topicId=240)
-- 제네레이터 펑션 : [/lab?topicId=238](/lab?topicId=238)
+- ES 6 추가기능 : [/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES6-%EC%B6%94%EA%B0%80-%EA%B8%B0%EB%8A%A5%EB%93%A4.html](/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES6-%EC%B6%94%EA%B0%80-%EA%B8%B0%EB%8A%A5%EB%93%A4.html)
+- 제네레이터 펑션 : [/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES-6-function-(generator-function).html](/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES-6-function-(generator-function).html)
 
 # 일반적인 클래스와 상속
 ``` java

@@ -9,11 +9,11 @@ tags: [version-control]
 
 # 강의를 파트별로 분리하였습니다.
 자바기반 GIT 관리 서버
-- [/lab?topicId=233](/lab?topicId=233)
+- [/2016/05/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-%EA%B8%B0%EB%B0%98%EC%9D%98-GIT-%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B2%84-(-Windows-GIT-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95-).html](/2016/05/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-%EA%B8%B0%EB%B0%98%EC%9D%98-GIT-%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B2%84-(-Windows-GIT-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95-).html)
 사설 git 관리서버 SCM-Manager 설치
-- [/lab?topicId=266](/lab?topicId=266)
+- [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-SCM-Manager-%EC%84%A4%EC%B9%98.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-SCM-Manager-%EC%84%A4%EC%B9%98.html)
 사설 git 관리서버 GitBucket 설치
-- [/lab?topicId=267](/lab?topicId=267)
+- [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html)
 
 
 # 서론
@@ -48,6 +48,6 @@ GIT은 버전관리 소프트웨어로 정말로 버전관리 기능만 있습�
 # git 관리서버
 문서를 분리하면서 내용이 확줄어들어 먼가 허전하지만.. 기분탓입니다.
 사설 git 관리서버 SCM-Manager 설치
-- [/lab?topicId=266](/lab?topicId=266)
+- [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-SCM-Manager-%EC%84%A4%EC%B9%98.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-SCM-Manager-%EC%84%A4%EC%B9%98.html)
 사설 git 관리서버 GitBucket 설치
-- [/lab?topicId=267](/lab?topicId=267)
+- [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html)

@@ -8,11 +8,11 @@ tags: [java]
 
 
 # SAP JCO 시리즈
-- [SAP RFC JCO (java - sapjco3.jar)를 이용한 접근방법](/lab?topicId=347)
-- [SAP JCO Manager 라이브러리](/lab?topicId=352)
+- [SAP RFC JCO (java - sapjco3.jar)를 이용한 접근방법](/2018/02/23/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-SAP-RFC-JCO-(java-sapjco3.jar)%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%91%EA%B7%BC%EB%B0%A9%EB%B2%95.html)
+- [SAP JCO Manager 라이브러리](/2018/11/04/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-JAVA-SAP-JCO-Manager-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC.html)
 
 # 서론
-저번에 올린 [SAP RFC JCO (java - sapjco3.jar)를 이용한 접근방법](https://gs.saro.me/lab?topicId=347) 이 생각보다 많이 쓰이는 것 같아 라이브러리를 잘 정리하여 **MAVEN** 에 업로드하였습니다.
+저번에 올린 [SAP RFC JCO (java - sapjco3.jar)를 이용한 접근방법](https://gs.saro.me/2018/02/23/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-SAP-RFC-JCO-(java-sapjco3.jar)%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%A0%91%EA%B7%BC%EB%B0%A9%EB%B2%95.html) 이 생각보다 많이 쓰이는 것 같아 라이브러리를 잘 정리하여 **MAVEN** 에 업로드하였습니다.
 
 # Github 주소
 [https://github.com/saro-lab/sap-jco-manager

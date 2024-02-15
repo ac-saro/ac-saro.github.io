@@ -58,7 +58,7 @@ maximumPoolSize=10
 # 커넥션
 여러개의 연결문이 있다는 생각으로 작성하였습니다.
 자세한 내용은 아래 강의를 참고해주세요.
-참고 : [/lab?topicId=253](/lab?topicId=253)
+참고 : [/2016/06/27/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%98-JPA-(-hibernate-mysql,-postgresql-%EC%98%88%EC%A0%9C-)-%EC%97%B0%EA%B2%B0.html](/2016/06/27/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%97%AC%EB%9F%AC%EA%B0%9C%EC%9D%98-JPA-(-hibernate-mysql,-postgresql-%EC%98%88%EC%A0%9C-)-%EC%97%B0%EA%B2%B0.html)
 ``` java
 /**
  * 데이터베이스 설정<br>

@@ -93,4 +93,4 @@ Batch
 데이터베이스에 보내기전 캐싱해두었다가 한번에 보내는 것 같습니다.
 그래서 문서에도 나와있듯 1:N 즉, 대량작업일 때 속도 향상의 효과가 있다고 하는 것 같습니다.
 마치 PreparedStatement를 연상시킵니다.  (아마 내부적으로 사용할 듯 합니다.)
-- [/lab?topicId=101](/lab?topicId=101)
+- [/2015/07/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-Statement,-PreparedStatement,-CallableStatement-%EC%86%8D%EB%8F%84-%EA%B3%A0%EC%B0%B0.html](/2015/07/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-Statement,-PreparedStatement,-CallableStatement-%EC%86%8D%EB%8F%84-%EA%B3%A0%EC%B0%B0.html)

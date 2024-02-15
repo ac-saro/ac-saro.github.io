@@ -9,9 +9,9 @@ tags: [servlet, spring, java]
 
 # Spring boot 서블릿/필터 시리즈
 Spring boot에서 Servlet 사용하기
-- [/lab?topicId=302](/lab?topicId=302)
+- [/2016/08/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot%EC%97%90%EC%84%9C-Servlet-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html](/2016/08/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot%EC%97%90%EC%84%9C-Servlet-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html)
 Spring boot에서 Filter 사용하기
-[/lab?topicId=303](/lab?topicId=303)
+[/2016/08/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot-%EC%97%90%EC%84%9C-Filter-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html](/2016/08/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot-%EC%97%90%EC%84%9C-Filter-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html)
 
 
 # Bean 등록

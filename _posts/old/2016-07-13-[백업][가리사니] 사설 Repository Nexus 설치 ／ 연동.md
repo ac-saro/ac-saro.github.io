@@ -7,7 +7,7 @@ tags: [tomcat, version-control, maven]
 오래된 문서가 많아 현재 상황과 맞지 않을 수 있습니다.
 
 
-사설 git ( [/lab?topicId=267](/lab?topicId=267) )에 이어서 사설 시리즈를 달려봅니다...
+사설 git ( [/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html](/2016/07/10/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%82%AC%EC%84%A4-git-%EA%B4%80%EB%A6%AC%EC%84%9C%EB%B2%84-GitBucket-%EC%84%A4%EC%B9%98.html) )에 이어서 사설 시리즈를 달려봅니다...
 
 
 # 서론 : 사설 리포지토리가 왜 필요한가?

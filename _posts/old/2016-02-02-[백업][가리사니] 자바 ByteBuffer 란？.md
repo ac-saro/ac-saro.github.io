@@ -7,8 +7,8 @@ tags: [java]
 오래된 문서가 많아 현재 상황과 맞지 않을 수 있습니다.
 
 # 소켓 / ByteBuffer
-- [자바 소켓의 종류 : 블록킹 / 논블로킹 / 비동기 논블로킹](/lab?topicId=175)
-- [자바 ByteBuffer 란?](/lab?topicId=176)
+- [자바 소켓의 종류 : 블록킹 / 논블로킹 / 비동기 논블로킹](/2016/02/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-%EC%86%8C%EC%BC%93%EC%9D%98-%EC%A2%85%EB%A5%98-blocking-non-blocking-%EB%B9%84%EB%8F%99%EA%B8%B0-non-blocking.html)
+- [자바 ByteBuffer 란?](/2016/02/02/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94-ByteBuffer-%EB%9E%80.html)
 
 # 초기화
 ``` java

@@ -9,13 +9,13 @@ tags: [spring, solr, postgresql, java]
 
 # 서론
 Spring @Transactional Method 적용범위 : rollback 주의
-- [/lab?topicId=275](/lab?topicId=275)
+- [/2016/07/18/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-@Transactional-Method-%EC%A0%81%EC%9A%A9%EB%B2%94%EC%9C%84-rollback-%EC%A3%BC%EC%9D%98.html](/2016/07/18/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-@Transactional-Method-%EC%A0%81%EC%9A%A9%EB%B2%94%EC%9C%84-rollback-%EC%A3%BC%EC%9D%98.html)
 위 강의를 쓰면서 당연히 될거 같았지만.. 트랜잭션시 서로 다른 종류의 DB를 조작할때 오류시 전부 롤백이 되는지 확인하기위해서 실험을 해보았습니다.
 환경 : Spring Boot, PostgreSQL, Solr, HikariCP, Hibernate (저번강의에선 MyBatis 였지만 이번엔 하이버네이트)
 
 
 # 스프링 부트 1.4.x 부터는 솔라 설정법이 조금 달라집니다.
-참고 : [/lab?topicId=296](/lab?topicId=296)
+참고 : [/2016/08/04/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-1.4.x-%EC%86%94%EB%9D%BC-(spring-data-solr)-%EC%97%B0%EB%8F%99-%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD/html](/2016/08/04/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-1.4.x-%EC%86%94%EB%9D%BC-(spring-data-solr)-%EC%97%B0%EB%8F%99-%EB%B3%80%EA%B2%BD%EC%82%AC%ED%95%AD/html)
 
 
 # 결론

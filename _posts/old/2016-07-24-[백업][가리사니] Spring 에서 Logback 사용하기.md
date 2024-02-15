@@ -8,7 +8,7 @@ tags: [spring, java]
 
 
 이전에 이미 Logback 에 대해서 올린적이 있지만 지금보니.. 아무것도 설명하지 않아 스프링과 연동겸 내용을 보충하려고합니다.
-이전글 : [/lab?topicId=251](/lab?topicId=251) (내용중복)
+이전글 : [/2016/06/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Java-Logback-%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A1%9C%EA%B7%B8-%EB%82%A8%EA%B8%B0%EA%B8%B0.html](/2016/06/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Java-Logback-%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A1%9C%EA%B7%B8-%EB%82%A8%EA%B8%B0%EA%B8%B0.html) (내용중복)
 
 
 # 메이븐 설정

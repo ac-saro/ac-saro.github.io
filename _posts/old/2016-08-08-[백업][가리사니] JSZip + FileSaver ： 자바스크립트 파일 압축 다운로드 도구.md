@@ -8,7 +8,7 @@ tags: [javascript]
 
 
 얼마전 Hibernate Tools 을 통해서 쿼리 -> Domain 변환에 대해서 설명했습니다.
-[/lab?topicId=297](/lab?topicId=297)
+[/2016/08/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Hibernate-Tools-%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC-%EC%9E%90%EB%8F%99%EC%83%9D%EC%84%B1.html](/2016/08/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Hibernate-Tools-%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%A6%AC%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC-%EC%9E%90%EB%8F%99%EC%83%9D%EC%84%B1.html)
 하지만 결과가 별로 마음에 들지 않았습니다.
 직접 쿼리문을 domain과 리포지토리로 바꿔 줄 수 있는 것을 생각하던 중 자바스크립트로 처리해서 zip으로 내려받으면 어떨까 싶어서 찾아보던중 js zip 이라는 것을 알게되었습니다.
 

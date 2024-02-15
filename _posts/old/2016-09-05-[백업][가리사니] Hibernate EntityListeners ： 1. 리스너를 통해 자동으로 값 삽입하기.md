@@ -11,9 +11,9 @@ Hibernate EntityListeners 시리즈
 - javax.persistence.EntityListeners 는 하이버네이트 전용이 아닌,
 - javax persistence 규격 이지만 이 강의에서는 하이버네이트를 기준으로 설명합니다.
 1. 리스너를 통해 자동으로 값 삽입하기
-- [/lab?topicId=312](/lab?topicId=312)
+- [/2016/09/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Hibernate-EntityListeners-1.-%EB%A6%AC%EC%8A%A4%EB%84%88%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EA%B0%92-%EC%82%BD%EC%9E%85%ED%95%98%EA%B8%B0.html](/2016/09/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Hibernate-EntityListeners-1.-%EB%A6%AC%EC%8A%A4%EB%84%88%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%9E%90%EB%8F%99%EC%9C%BC%EB%A1%9C-%EA%B0%92-%EC%82%BD%EC%9E%85%ED%95%98%EA%B8%B0.html)
 2. 어노테이션을 이용한 활용
-- [/lab?topicId=313](/lab?topicId=313)
+- [/2016/09/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Hibernate-@EntityListeners-2.-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%99%9C%EC%9A%A9.html](/2016/09/05/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Hibernate-@EntityListeners-2.-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%99%9C%EC%9A%A9.html)
 
 
 # 서론

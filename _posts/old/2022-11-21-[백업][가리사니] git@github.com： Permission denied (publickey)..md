@@ -7,7 +7,7 @@ tags: [git]
 오래된 문서가 많아 현재 상황과 맞지 않을 수 있습니다.
 
 ### 서론
-#### [git 이력 삭제](https://gs.saro.me/lab?topicId=390) 도중 아래와 같은 오류가 났다.
+#### [git 이력 삭제](https://gs.saro.me/2022/11/20/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-git-%EC%9D%B4%EB%A0%A5-%EC%82%AD%EC%A0%9C-(%EC%B4%88%EA%B8%B0%ED%99%94).html) 도중 아래와 같은 오류가 났다.
 
 ![설명](/file/forum/ed82ed97-c6c3-4b9f-98cb-7bbc4ace9715.png)
 

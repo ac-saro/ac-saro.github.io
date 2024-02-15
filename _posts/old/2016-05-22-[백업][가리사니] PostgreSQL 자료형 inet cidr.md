@@ -16,7 +16,7 @@ tags: [postgresql]
 그전 포멧은 unsgined int 형태의 범위 시작 ~ 종료 국가 이런식이였는데 현재 포멧은 IP대역 형태로 바뀌었습니다.
 
 생각해보면 ISP(인터넷 서비스 제공업체)가 IP 대역 단위로 얻어올 것 같긴 합니다.
-- 참고 IP 대역 계산 [/lab?topicId=104](/lab?topicId=104)
+- 참고 IP 대역 계산 [/2015/07/16/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-IP-%EB%8C%80%EC%97%AD-%EA%B3%84%EC%82%B0.html](/2015/07/16/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-IP-%EB%8C%80%EC%97%AD-%EA%B3%84%EC%82%B0.html)
 
 그래서 IP대역 -> IP범위(시작, 종료) 로 치환하는 것을 만드려다가 PostgreSQL 에 이미 있을 것 같아 조사하던중.. cidr를 알게되었습니다.
 

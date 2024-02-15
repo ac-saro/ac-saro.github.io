@@ -61,4 +61,4 @@ tags: [java, maven]
 ```
 
 # 같이보기
- - [로컬 디스크의 jar를 메이븐에 포함하기](/lab?topicId=250)
+ - [로컬 디스크의 jar를 메이븐에 포함하기](/2016/06/19/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EB%A1%9C%EC%BB%AC-%EB%94%94%EC%8A%A4%ED%81%AC%EC%9D%98-jar%EB%A5%BC-%EB%A9%94%EC%9D%B4%EB%B8%90%EC%97%90-%ED%8F%AC%ED%95%A8%ED%95%98%EA%B8%B0.html)

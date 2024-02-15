@@ -8,7 +8,7 @@ tags: [java, maven]
 
 
 좀더 자세한 설명은 아래 주소 참고.
-[/lab?topicId=282](/lab?topicId=282)
+[/2016/07/24/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-%EC%97%90%EC%84%9C-Logback-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html](/2016/07/24/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-%EC%97%90%EC%84%9C-Logback-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.html)
 
 # 로그백
 - 사이트 : http://logback.qos.ch/

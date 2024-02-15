@@ -161,9 +161,9 @@ if ( user != null )
 
 # List 모나드
 function* (제네레이터 함수) 에대한 설명은 아래 강의를 참조하세요.
-- [/lab?topicId=238](/lab?topicId=238)
+- [/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES-6-function-(generator-function).html](/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES-6-function-(generator-function).html)
 for ( of ) 에대한 설명은 아래 강의를 참조하세요.
-- [/lab?topicId=240](/lab?topicId=240)
+- [/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES6-%EC%B6%94%EA%B0%80-%EA%B8%B0%EB%8A%A5%EB%93%A4.html](/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES6-%EC%B6%94%EA%B0%80-%EA%B8%B0%EB%8A%A5%EB%93%A4.html)
 list 모나드는 재귀를 루프 형태로 바꿔주면서 느긋한연산이 가능하게 해줍니다.
 사용 예제
 ``` java
@@ -197,7 +197,7 @@ for (var item of result)
 - 쉽게 생각하면 2중 loop 라고 생각하면된다.
 - yield* 가 3번씩 [10, 20, 30] 다시 3번 [1, 2, 3] 총 9번 호출된다.
 기타 : 이해가 되지않는다면 먼저 위에서말한 제네레이터 함수를 참고하자!
-- [/lab?topicId=238](/lab?topicId=238)
+- [/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES-6-function-(generator-function).html](/2016/05/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-ES-6-function-(generator-function).html)
 결과 :
 11
 21
@@ -212,7 +212,7 @@ for (var item of result)
 
 # Continuation 모나드
 이것을 이해하기 위해선 먼저 Promise 를 알아야한다.
-- 참고 : [/lab?topicId=241](/lab?topicId=241)
+- 참고 : [/2016/05/30/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Javascript-Promise.html](/2016/05/30/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Javascript-Promise.html)
 사용예제
 ``` java
 var p = Promise.resolve(5).then(function(value1)

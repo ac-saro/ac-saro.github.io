@@ -8,10 +8,10 @@ tags: [spring, java]
 
 
 # Spring Security OAuth 통합 로그인 시리즈
-- [1. OAuth 소개](/lab?topicId=316)
-- [2. 시큐리티와 OAuth 통합 구조 및 시큐리티 작성](/lab?topicId=317)
-- [3. 시큐리티에 OAuth 연동 (페이스북, 네이버...)](/lab?topicId=318)
-- [4. 추가사항](/lab?topicId=321)
+- [1. OAuth 소개](/2016/09/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-Security-OAuth-%ED%86%B5%ED%95%A9-%EB%A1%9C%EA%B7%B8%EC%9D%B8-1.-OAuth-%EC%86%8C%EA%B0%9C.html)
+- [2. 시큐리티와 OAuth 통합 구조 및 시큐리티 작성](/2016/09/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-Security-OAuth-%ED%86%B5%ED%95%A9-%EB%A1%9C%EA%B7%B8%EC%9D%B8-2.-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%EC%99%80-OAuth-%ED%86%B5%ED%95%A9-%EA%B5%AC%EC%A1%B0-%EB%B0%8F-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0-%EC%9E%91%EC%84%B1.html)
+- [3. 시큐리티에 OAuth 연동 (페이스북, 네이버...)](/2016/09/25/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-Security-OAuth-%ED%86%B5%ED%95%A9-%EB%A1%9C%EA%B7%B8%EC%9D%B8-3.-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%EC%97%90-OAuth-%EC%97%B0%EB%8F%99-(%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%B6%81,-%EB%84%A4%EC%9D%B4%EB%B2%84/.).html)
+- [4. 추가사항](/2016/10/04/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-Security-OAuth-%ED%86%B5%ED%95%A9-%EB%A1%9C%EA%B7%B8%EC%9D%B8-4.-%EC%B6%94%EA%B0%80%EC%82%AC%ED%95%AD.html)
 
 
 
@@ -24,7 +24,7 @@ tags: [spring, java]
 
 # 구조
 1. 사이트에는 스프링 시큐리티로 작성된 일반적인 로그인이 존재합니다.
-	- 스프링 시큐리티 참고 : [/lab?topicId=283](/lab?topicId=283)
+	- 스프링 시큐리티 참고 : [/2016/07/24/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot-Security-1.-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%84%A4%EC%A0%95.html](/2016/07/24/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot-Security-1.-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%84%A4%EC%A0%95.html)
 	- DB에 일반 Account가 있고 OAuth 테이블과는 1:n 관계입니다.
 (하나의 계정에 여러개의 OAuth를 접합시킬 수 있다는 가정하에)
 2. OAuth로 로그인을 할 경우 유저ID와 전자우편을 가져옵니다.
@@ -87,7 +87,7 @@ web.configuration.security.oauth2 : oauth2 로그인
 스프링 시큐리티, 하이버네이트를 기준으로 구현됩니다.
 주제가 OAuth 연동인만큼 일부분 생략하겠습니다.
 스프링 시큐리티 강의는 아래 주소에서 볼 수 있습니다.
-- [Spring boot Security 시리즈](/lab?topicId=283)
+- [Spring boot Security 시리즈](/2016/07/24/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot-Security-1.-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%84%A4%EC%A0%95.html)
 
 의존성
 ``` xml
@@ -346,7 +346,7 @@ public class UserDetailsService implements org.springframework.security.core.use
 
 # 추신
 스프링 시큐리티를 통해 직접 로그인을 구현해 본신 분이라면 특별한점이 별로 없다는 것을 알 수 있습니다.
-- [스프링 시큐리티 참고](/lab?topicId=283)
+- [스프링 시큐리티 참고](/2016/07/24/%EB%B0%B1%EC%97%85-%EA%B0%80%EB%A6%AC%EC%82%AC%EB%8B%88-Spring-boot-Security-1.-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%84%A4%EC%A0%95.html)
 참고해서 봐야할 부분은 아래와 같습니다.
 - UserDetails.getAuthorities() 부분
 - SecurityConfig의 .addFilterBefore((Filter)context.getBean("sso.filter"), BasicAuthenticationFilter.class);
