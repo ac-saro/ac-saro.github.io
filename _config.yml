@@ -5,6 +5,7 @@
 header_pages:
   - list.md
   - tags.md
+  - guestbook.md
 
 # footer: '<a href="https://github.com/ac-saro">github</a>'
 
