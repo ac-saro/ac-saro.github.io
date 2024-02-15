@@ -4,4 +4,4 @@ layout: page
 permalink: /guestbook
 ---
 
-{% include _layouts/guestbook.html %}
+{% include guestbook.html %}
