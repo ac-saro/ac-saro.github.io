@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0px;  margin-top: 22px;  font-weight: bold;  co
 p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: none;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
+blockquote { border-left: 4px solid #759b6e; padding: 0 13px; margin: 15px 0; }
 
 /**
  * Layout
