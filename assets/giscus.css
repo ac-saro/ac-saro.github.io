@@ -101,6 +101,10 @@ main .gsc-loading-image {
 .gsc-tl-line {
   background: #222 !important;
 }
+
+form.gsc-comment-box {
+  border-width: 1px 0 0 !important;
+}
 .gsc-timeline, .gsc-comment-box {
   border-width: 1px 0 !important;
   border-radius: 0 !important;
