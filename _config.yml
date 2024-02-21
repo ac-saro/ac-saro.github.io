@@ -2,6 +2,8 @@
 
 #google_analytics: UA-NNNNNNNN-N
 
+url: "https://gs.saro.me"
+
 header_pages:
   - list.html
   - tags.html
