@@ -1,13 +1,12 @@
 ---
-date: 1998-01-02
+date: 2022-01-12
 category:
-  - History
+  - CategoryA
+  - CategoryB
 tag:
-  - WWII
-archive: true
+  - tag C
+  - tag D
 ---
-
-# Archive Article2
 
 ## Heading 2
 

@@ -12,6 +12,8 @@ const categoryMap = useBlogCategory('category')
   <ParentLayout>
     <template #page>
       <main class="page">
+        <p>asd</p>
+
         <div class="category-wrapper">
           <RouteLink
             v-for="({ items, path }, name) in categoryMap.map"
