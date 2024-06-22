@@ -1,6 +1,6 @@
 main {
   --primary-default: 99,99,99;
-  --bg-default: 0, 0, 0;
+  --bg-default: #22272e;
   --color-prettylights-syntax-comment: #8b949e;
   --color-prettylights-syntax-constant: #79c0ff;
   --color-prettylights-syntax-entity: #d2a8ff;
