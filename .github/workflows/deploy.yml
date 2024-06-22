@@ -14,7 +14,7 @@ jobs:
         env:
           YARN_IGNORE_NODE: 1
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          TARGET_REPO: username/repo
-          TARGET_BRANCH: master
-          BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: blog/.vuepress/dist/
+          TARGET_REPO: ac-saro/ac-saro.github.io
+          TARGET_BRANCH: publish
+          BUILD_SCRIPT: yarn docs:build
+          BUILD_DIR: docs/.vuepress/dist/
