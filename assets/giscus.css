@@ -67,6 +67,7 @@ main {
   --color-border-default: #22272e;
   --color-border-muted: #22272e;
   --color-neutral-muted: rgb(175 184 193 / 19%);
+  --color-bg-primary: #22272e;
 
   /* --color-accent-fg: rgba(var(--primary-default), 1); */
   --color-accent-fg: #aaa; /* needed for links contrast */
