@@ -12,8 +12,6 @@ defineProps({
 
 <template>
   <div class="article-wrapper">
-    <div v-if="!items.length">Nothing in here.</div>
-
     <article
       v-for="{ info, path } in items"
       :key="path"

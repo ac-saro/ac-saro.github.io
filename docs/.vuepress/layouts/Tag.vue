@@ -12,6 +12,8 @@ const tagMap = useBlogCategory('tag')
   <ParentLayout>
     <template #page>
       <main class="page">
+        <p>&nbps;</p>
+
         <div class="tag-wrapper">
           <RouteLink
             v-for="({ items, path }, name) in tagMap.map"

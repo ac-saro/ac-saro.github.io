@@ -1,34 +1,27 @@
-import { blogPlugin } from '@vuepress/plugin-blog'
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
+import {blogPlugin} from '@vuepress/plugin-blog'
+import {defaultTheme} from '@vuepress/theme-default'
+import {defineUserConfig} from 'vuepress'
+import {viteBundler} from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
-
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  lang: 'ko-KR',
+  title: '가리사니의 조각들...',
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
 
     navbar: [
       '/',
       {
-        text: 'Article',
-        link: '/article/',
+        text: '블로그',
+        link: '/timeline/',
       },
       {
-        text: 'Category',
+        text: '카테고리',
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '태그',
         link: '/tag/',
-      },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
       },
     ],
   }),
@@ -91,33 +84,6 @@ export default defineUserConfig({
       ],
 
       type: [
-        {
-          key: 'article',
-          // Remove archive articles
-          filter: (page) => !page.frontmatter.archive,
-          layout: 'Article',
-          frontmatter: () => ({
-            title: 'Articles',
-            sidebar: false,
-          }),
-          // Sort pages with time and sticky
-          sorter: (pageA, pageB) => {
-            if (pageA.frontmatter.sticky && pageB.frontmatter.sticky)
-              return pageB.frontmatter.sticky - pageA.frontmatter.sticky
-
-            if (pageA.frontmatter.sticky && !pageB.frontmatter.sticky) return -1
-
-            if (!pageA.frontmatter.sticky && pageB.frontmatter.sticky) return 1
-
-            if (!pageB.frontmatter.date) return 1
-            if (!pageA.frontmatter.date) return -1
-
-            return (
-              new Date(pageB.frontmatter.date).getTime() -
-              new Date(pageA.frontmatter.date).getTime()
-            )
-          },
-        },
         {
           key: 'timeline',
           // Only article with date should be added to timeline
