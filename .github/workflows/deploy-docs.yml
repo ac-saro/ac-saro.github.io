@@ -20,7 +20,7 @@ jobs:
           node-version: 20
           cache: yarn
       - name: Install Deps
-        run: yarn install --frozen-lockfile
+        run: yarn install
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
