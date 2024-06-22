@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-UKCZNIRO.js";
+} from "./chunk-UVEOV7DT.js";
 import {
   computed,
   defineComponent,
@@ -19,9 +19,9 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-NRR3UUIY.js";
+} from "./chunk-P3DRSZBD.js";
 
-// node_modules/vue-router/dist/vue-router.mjs
+// .yarn/__virtual__/vue-router-virtual-e3fa8ecb63/3/AppData/Local/Yarn/Berry/cache/vue-router-npm-4.4.0-a3b09de58d-10c0.zip/node_modules/vue-router/dist/vue-router.mjs
 var isBrowser = typeof document !== "undefined";
 function isESModule(obj) {
   return obj.__esModule || obj[Symbol.toStringTag] === "Module";
