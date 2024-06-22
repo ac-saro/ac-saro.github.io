@@ -16,6 +16,7 @@ lerna-debug.log*
 !.yarn/versions
 
 node_modules
+dist
 dist-ssr
 *.local
 
