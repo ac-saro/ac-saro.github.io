@@ -1,6 +1,6 @@
 main {
   --primary-default: 99,99,99;
-  --bg-default: #22272e;
+  --bg-default: #212121;
   --color-prettylights-syntax-comment: #8b949e;
   --color-prettylights-syntax-constant: #79c0ff;
   --color-prettylights-syntax-entity: #d2a8ff;
@@ -11,68 +11,68 @@ main {
   --color-prettylights-syntax-variable: #ffa657;
   --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
   --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
-  --color-prettylights-syntax-invalid-illegal-bg: #22272e;
+  --color-prettylights-syntax-invalid-illegal-bg: #212121;
   --color-prettylights-syntax-carriage-return-text: #f0f6fc;
-  --color-prettylights-syntax-carriage-return-bg: #22272e;
+  --color-prettylights-syntax-carriage-return-bg: #212121;
   --color-prettylights-syntax-string-regexp: #7ee787;
   --color-prettylights-syntax-markup-list: #f2cc60;
   --color-prettylights-syntax-markup-heading: #1f6feb;
   --color-prettylights-syntax-markup-italic: #c9d1d9;
   --color-prettylights-syntax-markup-bold: #c9d1d9;
   --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
-  --color-prettylights-syntax-markup-deleted-bg: #22272e;
+  --color-prettylights-syntax-markup-deleted-bg: #212121;
   --color-prettylights-syntax-markup-inserted-text: #aff5b4;
-  --color-prettylights-syntax-markup-inserted-bg: #22272e;
+  --color-prettylights-syntax-markup-inserted-bg: #212121;
   --color-prettylights-syntax-markup-changed-text: #ffdfb6;
-  --color-prettylights-syntax-markup-changed-bg: #22272e;
+  --color-prettylights-syntax-markup-changed-bg: #212121;
   --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
-  --color-prettylights-syntax-markup-ignored-bg: #22272e;
+  --color-prettylights-syntax-markup-ignored-bg: #212121;
   --color-prettylights-syntax-meta-diff-range: #d2a8ff;
   --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
   --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
   --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
   --color-btn-text: rgb(235 235 245 / 86%);
-  --color-btn-bg: #22272e;
-  --color-btn-border: #22272e;
+  --color-btn-bg: #212121;
+  --color-btn-border: #212121;
   --color-btn-shadow: 0 1px 0 rgba(var(--bg-default), 1);
   --color-btn-inset-shadow: inset 0 1px 0 rgba(var(--bg-default), 1);
-  --color-btn-hover-bg: #22272e;
-  --color-btn-hover-border: #22272e;
-  --color-btn-active-bg: #22272e;
-  --color-btn-active-border: #22272e;
-  --color-btn-selected-bg: #22272e;
+  --color-btn-hover-bg: #212121;
+  --color-btn-hover-border: #212121;
+  --color-btn-active-bg: #212121;
+  --color-btn-active-border: #212121;
+  --color-btn-selected-bg: #212121;
   --color-btn-primary-text: rgb(255 255 255 / 100%);
-  --color-btn-primary-bg: #22272e;
-  --color-btn-primary-border: #22272e;
+  --color-btn-primary-bg: #212121;
+  --color-btn-primary-border: #212121;
   --color-btn-primary-shadow: 0 1px 0 rgb(27 31 36 / 10%);
   --color-btn-primary-inset-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 3%);
-  --color-btn-primary-hover-bg: #22272e;
-  --color-btn-primary-hover-border: #22272e;
-  --color-btn-primary-selected-bg: #22272e;
+  --color-btn-primary-hover-bg: #212121;
+  --color-btn-primary-hover-border: #212121;
+  --color-btn-primary-selected-bg: #212121;
   --color-btn-primary-selected-shadow: inset 0 1px 0 rgb(0 45 17 / 20%);
   --color-btn-primary-disabled-text: rgb(255 255 255 / 80%);
-  --color-btn-primary-disabled-bg: #22272e;
-  --color-btn-primary-disabled-border: #22272e;
-  --color-action-list-item-default-hover-bg: #22272e;
-  --color-segmented-control-bg: #22272e;
-  --color-segmented-control-button-bg: #22272e;
-  --color-segmented-control-button-selected-border: #22272e;
+  --color-btn-primary-disabled-bg: #212121;
+  --color-btn-primary-disabled-border: #212121;
+  --color-action-list-item-default-hover-bg: #212121;
+  --color-segmented-control-bg: #212121;
+  --color-segmented-control-button-bg: #212121;
+  --color-segmented-control-button-selected-border: #212121;
   --color-fg-default: rgb(235 235 245 / 86%);
   --color-fg-muted: rgb(235 235 245 / 60%);
   --color-fg-subtle: rgb(235 235 245 / 50%);
-  --color-canvas-default: #22272e;
+  --color-canvas-default: #212121;
   --color-canvas-overlay: rgb(30 30 32 / 100%);
-  --color-canvas-inset: #22272e;
+  --color-canvas-inset: #212121;
   --color-canvas-subtle: rgba(var(--bg-default), 1);
-  --color-border-default: #22272e;
-  --color-border-muted: #22272e;
+  --color-border-default: #212121;
+  --color-border-muted: #212121;
   --color-neutral-muted: rgb(175 184 193 / 19%);
-  --color-bg-primary: #22272e;
+  --color-bg-primary: #212121;
 
   /* --color-accent-fg: rgba(var(--primary-default), 1); */
   --color-accent-fg: #aaa; /* needed for links contrast */
   --color-accent-emphasis: rgba(var(--primary-default), 0.95);
-  --color-accent-muted: #22272e;
+  --color-accent-muted: #212121;
   --color-accent-subtle: rgba(var(--primary-default), 0.1);
   --color-success-fg: #3fb950;
   --color-attention-fg: #d29922;
@@ -109,11 +109,11 @@ form.gsc-comment-box {
 .gsc-timeline, .gsc-comment-box {
   border-width: 1px 0 !important;
   border-radius: 0 !important;
-  border-top: 1px dashed #3e4c5a !important;
-  border-bottom: 1px dashed #3e4c5a !important;
+  border-top: 1px dashed #ededed !important;
+  border-bottom: 1px dashed #ededed !important;
 }
 .gsc-comment-box-main {
-  border: 1px dashed #3e4c5a !important;
+  border: 1px dashed #ededed !important;
 }
 .gsc-timeline {
   padding-top: 6px;
