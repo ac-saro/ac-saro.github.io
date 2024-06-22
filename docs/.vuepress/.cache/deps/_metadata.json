@@ -1,40 +1,40 @@
 {
-  "hash": "f51018db",
-  "configHash": "8079c953",
-  "lockfileHash": "99df808b",
-  "browserHash": "9e17e907",
+  "hash": "b7d1b1d4",
+  "configHash": "192dabe0",
+  "lockfileHash": "ff4556b7",
+  "browserHash": "77d15e90",
   "optimized": {
     "@vue/devtools-api": {
-      "src": "../../../../../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.6.3-6d1769be91-10c0.zip/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "@vue_devtools-api.js",
-      "fileHash": "c89b495f",
+      "fileHash": "893b793f",
       "needsInterop": false
     },
     "@vuepress/shared": {
-      "src": "../../../../../../AppData/Local/Yarn/Berry/cache/@vuepress-shared-npm-2.0.0-rc.14-4dbe0e4453-10c0.zip/node_modules/@vuepress/shared/dist/index.js",
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
       "file": "@vuepress_shared.js",
-      "fileHash": "d9781b47",
+      "fileHash": "4197799b",
       "needsInterop": false
     },
     "vue": {
-      "src": "../../../../.yarn/__virtual__/vue-virtual-4734ebf6c7/3/AppData/Local/Yarn/Berry/cache/vue-npm-3.4.30-52ebe7d44e-10c0.zip/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "67d1b918",
+      "fileHash": "84455d16",
       "needsInterop": false
     },
     "vue-router": {
-      "src": "../../../../.yarn/__virtual__/vue-router-virtual-e3fa8ecb63/3/AppData/Local/Yarn/Berry/cache/vue-router-npm-4.4.0-a3b09de58d-10c0.zip/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
       "file": "vue-router.js",
-      "fileHash": "f2b266e2",
+      "fileHash": "2e83cd01",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-UVEOV7DT": {
-      "file": "chunk-UVEOV7DT.js"
+    "chunk-UKCZNIRO": {
+      "file": "chunk-UKCZNIRO.js"
     },
-    "chunk-P3DRSZBD": {
-      "file": "chunk-P3DRSZBD.js"
+    "chunk-NRR3UUIY": {
+      "file": "chunk-NRR3UUIY.js"
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 date: 2020-01-01
 category:
-  - Category C
+  - CategoryC
 tag:
   - tag E
 sticky: 10

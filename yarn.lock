@@ -728,7 +728,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/bundler-vite@npm:^2.0.0-rc.14":
+"@vuepress/bundler-vite@npm:^2.0.0-rc.7":
   version: 2.0.0-rc.14
   resolution: "@vuepress/bundler-vite@npm:2.0.0-rc.14"
   dependencies:
@@ -864,7 +864,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-blog@npm:^2.0.0-rc.37":
+"@vuepress/plugin-blog@npm:^2.0.0-rc.11":
   version: 2.0.0-rc.37
   resolution: "@vuepress/plugin-blog@npm:2.0.0-rc.37"
   dependencies:
@@ -1015,7 +1015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/theme-default@npm:^2.0.0-rc.37":
+"@vuepress/theme-default@npm:^2.0.0-rc.11":
   version: 2.0.0-rc.37
   resolution: "@vuepress/theme-default@npm:2.0.0-rc.37"
   dependencies:
@@ -1099,6 +1099,18 @@ __metadata:
   checksum: 10c0/f742a5a107473946f426c691c08daba61a1d15942616f300b5d32fd735be88fef5cba24201757b6c407fd564555fb48c751cfa33519b2605c8a7aadd22baf372
   languageName: node
   linkType: hard
+
+"ac-saro@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "ac-saro@workspace:."
+  dependencies:
+    "@vuepress/bundler-vite": "npm:^2.0.0-rc.7"
+    "@vuepress/plugin-blog": "npm:^2.0.0-rc.11"
+    "@vuepress/theme-default": "npm:^2.0.0-rc.11"
+    vue: "npm:^3.4.0"
+    vuepress: "npm:^2.0.0-rc.7"
+  languageName: unknown
+  linkType: soft
 
 "agent-base@npm:^7.0.2, agent-base@npm:^7.1.0, agent-base@npm:^7.1.1":
   version: 7.1.1
@@ -1883,19 +1895,6 @@ __metadata:
   checksum: 10c0/e38489906dad4f162ca01e0dcbdbed96d1a53740cef446b9bf76d80bec66fa799af07776a18077aee642346c5e1365ed95e4c91854a12bf40ba0d4fb43a625a6
   languageName: node
   linkType: hard
-
-"gs.saro.me@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "gs.saro.me@workspace:."
-  dependencies:
-    "@vuepress/bundler-vite": "npm:^2.0.0-rc.14"
-    "@vuepress/plugin-blog": "npm:^2.0.0-rc.37"
-    "@vuepress/theme-default": "npm:^2.0.0-rc.37"
-    sass: "npm:^1.77.6"
-    vue: "npm:^3.4.30"
-    vuepress: "npm:^2.0.0-rc.14"
-  languageName: unknown
-  linkType: soft
 
 "hash-sum@npm:^2.0.0":
   version: 2.0.0
@@ -3190,7 +3189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:^3.4.29, vue@npm:^3.4.30":
+"vue@npm:^3.4.0, vue@npm:^3.4.29":
   version: 3.4.30
   resolution: "vue@npm:3.4.30"
   dependencies:
@@ -3208,7 +3207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vuepress@npm:^2.0.0-rc.14":
+"vuepress@npm:^2.0.0-rc.7":
   version: 2.0.0-rc.14
   resolution: "vuepress@npm:2.0.0-rc.14"
   dependencies:

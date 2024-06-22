@@ -1,7 +1,7 @@
 ---
 date: 2022-01-02
 category:
-  - Category A
+  - CategoryA
 tag:
   - tag A
   - tag B

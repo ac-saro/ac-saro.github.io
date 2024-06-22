@@ -10,7 +10,7 @@ const articles = useBlogType('article')
   <ParentLayout>
     <template #page>
       <main class="page">
-        <h1 class="timeline-title">Timeline</h1>
+        <h1 class="timeline-title">aaa</h1>
 
         <ArticleList :items="articles.items" />
       </main>

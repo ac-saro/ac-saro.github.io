@@ -1,4 +1,4 @@
-// ../../AppData/Local/Yarn/Berry/cache/@vuepress-shared-npm-2.0.0-rc.14-4dbe0e4453-10c0.zip/node_modules/@vuepress/shared/dist/index.js
+// node_modules/@vuepress/shared/dist/index.js
 var isLinkWithProtocol = (link) => /^[a-z][a-z0-9+.-]*:/.test(link) || link.startsWith("//");
 var markdownLinkRegexp = /.md((\?|#).*)?$/;
 var isLinkExternal = (link, base = "/") => isLinkWithProtocol(link) || // absolute link that does not start with `base` and does not end with `.md`

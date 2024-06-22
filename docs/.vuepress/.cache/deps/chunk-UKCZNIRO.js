@@ -1,4 +1,4 @@
-// ../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.6.3-6d1769be91-10c0.zip/node_modules/@vue/devtools-api/lib/esm/env.js
+// node_modules/@vue/devtools-api/lib/esm/env.js
 function getDevtoolsGlobalHook() {
   return getTarget().__VUE_DEVTOOLS_GLOBAL_HOOK__;
 }
@@ -7,11 +7,11 @@ function getTarget() {
 }
 var isProxyAvailable = typeof Proxy === "function";
 
-// ../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.6.3-6d1769be91-10c0.zip/node_modules/@vue/devtools-api/lib/esm/const.js
+// node_modules/@vue/devtools-api/lib/esm/const.js
 var HOOK_SETUP = "devtools-plugin:setup";
 var HOOK_PLUGIN_SETTINGS_SET = "plugin:settings:set";
 
-// ../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.6.3-6d1769be91-10c0.zip/node_modules/@vue/devtools-api/lib/esm/time.js
+// node_modules/@vue/devtools-api/lib/esm/time.js
 var supported;
 var perf;
 function isPerformanceSupported() {
@@ -34,7 +34,7 @@ function now() {
   return isPerformanceSupported() ? perf.now() : Date.now();
 }
 
-// ../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.6.3-6d1769be91-10c0.zip/node_modules/@vue/devtools-api/lib/esm/proxy.js
+// node_modules/@vue/devtools-api/lib/esm/proxy.js
 var ApiProxy = class {
   constructor(plugin, hook) {
     this.target = null;
@@ -134,7 +134,7 @@ var ApiProxy = class {
   }
 };
 
-// ../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.6.3-6d1769be91-10c0.zip/node_modules/@vue/devtools-api/lib/esm/index.js
+// node_modules/@vue/devtools-api/lib/esm/index.js
 function setupDevtoolsPlugin(pluginDescriptor, setupFn) {
   const descriptor = pluginDescriptor;
   const target = getTarget();
@@ -161,4 +161,4 @@ export {
   now,
   setupDevtoolsPlugin
 };
-//# sourceMappingURL=chunk-UVEOV7DT.js.map
+//# sourceMappingURL=chunk-UKCZNIRO.js.map
