@@ -1,14 +1,20 @@
 ---
-title: 목록
+title: 블로그
 layout: page
 permalink: /list
 ---
 
-<ul class="li-4">
-{%- for post in site.posts -%}
-<li>
-  {%- assign date_format = "%Y-%m-%d" -%}
-  <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-</li>
-{%- endfor -%}
-</ul>
+<div class="post-list">
+  {%- for post in site.posts -%}
+  <div class="node hr-line not-first">
+    {%- assign date_format = "%Y-%m-%d" -%}
+    <a class="subject" href="{{ post.url | relative_url }}"><i class="fa-regular fa-folder"></i>&nbsp; {{ post.title | escape }}</a>
+    <div class="details">
+      <div>
+        {{ post.date | date: date_format }}
+        <span class="tags">{%- for tag in post.tags -%}<a href="/tags#{{ tag | slugify }}">#{{ tag }}</a>{%- endfor -%}</span>
+      </div>
+    </div>
+  </div>
+  {%- endfor -%}
+</div>

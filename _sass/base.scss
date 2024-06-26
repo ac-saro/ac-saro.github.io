@@ -20,6 +20,8 @@ p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: none;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }
 blockquote { border-left: 4px solid #759b6e; padding: 0 13px; margin: 15px 0; }
+.g-font-16 { font-size: 16px; }
+.g-mt-32 { margin-top: 32px; }
 
 /**
  * Layout
@@ -27,6 +29,7 @@ blockquote { border-left: 4px solid #759b6e; padding: 0 13px; margin: 15px 0; }
 .container {  max-width: $container-max-width;  margin-right: auto;  margin-left: auto; }
 p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; margin-bottom: 15px; }
 .hr-line { color: var(--text-color);  border-top: var(--border);  margin: 20px auto 15px;  }
+.hr-line.not-first:first-child { border:0; }
 .pad-t-10 { padding-top:10px }
 header { margin-top: 25px;  margin-bottom: 10px; }
 @media only screen and (max-device-width: 500px) { header { margin-top: 12px; } }
@@ -38,6 +41,14 @@ main { word-break: break-all; }
 .content-layout img { max-width: 80%; opacity: .8 }
 .content-layout img:hover { opacity: 1 }
 .li-4 li { margin: 4px 0; }
+
+/**
+ * .post-list
+ */
+.post-list .node { margin:0; padding: 14px 0;  list-style: none; }
+.post-list .node .subject { font-size: 16px;  margin: 0; }
+.post-list .node .details { padding:4px 0 0 1px; }
+.post-list .node .details .tags a { margin-left: 8px }
 
 /**
  * post

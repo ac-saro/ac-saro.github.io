@@ -4,11 +4,13 @@ layout: home
 permalink: /
 ---
 
-### 주요 공개 그룹
+<div class="g-font-16 g-mt-32"><i class="fa-solid fa-share-nodes"></i>&nbsp; 그룹</div>
+
 - [사로 연구소](https://github.com/saro-lab)
 - [애니시아 프로젝트](https://github.com/anissia-net)
 
-### 주요 공개 프로젝트
+<div class="g-font-16 g-mt-32"><i class="fa-solid fa-flask"></i>&nbsp; 프로젝트</div>
+
 | 구분     | 이름                                                                                   | 설명                        |
 |--------|--------------------------------------------------------------------------------------|---------------------------|
 | maven  | [jwt](https://github.com/saro-lab/jwt)                                               | JWT 라이브러리 (암/복호화, 동적키)    |
