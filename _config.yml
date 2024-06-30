@@ -4,6 +4,8 @@
 
 url: "https://gs.saro.me"
 
+future: true
+
 header_pages:
   - list.html
   - tags.html
